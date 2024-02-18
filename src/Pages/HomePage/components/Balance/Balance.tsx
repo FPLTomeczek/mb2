@@ -42,7 +42,7 @@ export default function Balance() {
                   size={'md'}
                   rightIcon={<AddIcon boxSize={3} />}
                >
-            Add
+                  Add
                </Button>
                <Button
                   onClick={() => openModal('Remove Money')}
@@ -50,7 +50,7 @@ export default function Balance() {
                   size={'md'}
                   rightIcon={<MinusIcon boxSize={3} />}
                >
-            Remove
+                  Remove
                </Button>
             </ButtonGroup>
          </Flex>
@@ -74,7 +74,7 @@ export default function Balance() {
 
                <ModalFooter>
                   <Button colorScheme='blue' mr={3} onClick={onClose}>
-              Submit
+                     Submit
                   </Button>
                </ModalFooter>
             </ModalContent>

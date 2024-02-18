@@ -17,10 +17,10 @@ export const TransactionsList = ({ transactionList }: TransactionListProps) => {
                      <Text>{transaction.date.toString()}</Text>
                      <Text>{transaction.value} $</Text>
                      {transaction.value > 0 ? (
-                <TriangleUpIcon color={'green'} />
-              ) : (
-                <TriangleDownIcon color={'red'} />
-              )}
+                        <TriangleUpIcon color={'green'} />
+                     ) : (
+                        <TriangleDownIcon color={'red'} />
+                     )}
                   </Flex>
                </CardBody>
             </Card>
